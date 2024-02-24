@@ -36,7 +36,7 @@ class LoginServiceImplTest {
     void 회원등록(){
         User user = new User();
         user.setName("민성");
-        user.setPassword("alstjd45");
+        user.setPassword("1234");
         user.setEmail("skylife471@naver.com");
         userSecurityService.join(user);
     }
